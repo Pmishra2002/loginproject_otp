@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for development. Specifically,
+         the Flutter tool needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"
+
+        />
+    android {
+    compileSdkVersion 30
+    defaultConfig {
+    applicationId "com.example.myapp"
+    minSdkVersion 30  <!-- Set the minimum SDK version to 20 or higher-->
+    targetSdkVersion 30
+    // ...
+    }
+    // ...
+    }
+
+</manifest>
